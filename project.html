@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Jodeb water Tecgnologies Ltd</title>
+	<title>Jodeb | Boreholes</title>
+	<link rel="shortcut icon" type="image/png" href="images\ico.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
@@ -256,17 +257,17 @@
 						</button>
 					</div>
 					<div class="modal-body p-4 p-md-5">
-						<form action="#" class="appointment-form ftco-animate">
+					<form action="index.php" method="post" class="appointment-form ftco-animate">
 							<h3>Request Quote</h3>
 							<div class="">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="First Name">
+									<input name="fname" type="text" class="form-control" placeholder="First Name">
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Last Name">
+									<input name="lname" type="text" class="form-control" placeholder="Last Name">
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Phone">
+									<input name="phone" type="text" class="form-control" placeholder="Phone">
 								</div>
 							</div>
 							<div class="">
@@ -287,14 +288,13 @@
 							</div>
 							<div class="">
 								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+									<textarea name="message" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
 								</div>
 								<div class="form-group">
-									<input type="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
+									<input type="submit" name="submit" id="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
 								</div>
 							</div>
-						</form>
-					</div>
+						</form>					</div>
 				</div>
 			</div>
 		</div>
